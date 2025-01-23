@@ -5,6 +5,7 @@ int main(){
     int lista[]= {2,4,6,8,10};
     int limite = sizeof(lista)/sizeof(lista[0]);
 
+    cout<<sizeof(lista)<<endl<<sizeof(lista[0])<<endl;
     for(int i=0;i<limite;i+=1){
         cout<<lista[i];
         if(i<limite-1){
